@@ -21,5 +21,6 @@ public class exercicio3 {
                 System.out.println("Nao sao Multiplos");
             }
         }
+        sc.close();
     }
 }
