@@ -28,10 +28,10 @@ public class teste {
                     System.out.printf("A area do quadrado e: %.1f%n", area);
                     break;
                 case 2: 
-                int b, h;
+                    double b, h;
                     System.out.println("\nDigite a base e altura do triangulo: ");
-                    b = sc.nextInt();
-                    h = sc.nextInt();
+                    b = sc.nextDouble();
+                    h = sc.nextDouble();
                     area = (b*h)/2;
                     System.out.printf("A area do triangulo e: %.2f%n", area);
                     break;
@@ -44,9 +44,12 @@ public class teste {
                     System.out.printf("A area do circulo e: %.2f%n", area);
                     break;
                 default:
+                    if (op != 0){ 
                     System.out.println("Opcao invalida! ");
-                    break;       
+                    }
+                    break;      
             }
-        } while(true);
+        } while(op != 0);
+        sc.close();
     }
 }
