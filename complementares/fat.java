@@ -13,7 +13,7 @@ public class fat {
             System.out.printf(" %d X", i);
         }
         System.out.print(" 1 = ");
-        System.err.println(fat);
+        System.out.println(fat);
         sc.close();
     }
 }
