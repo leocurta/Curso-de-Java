@@ -31,5 +31,6 @@ public class operacoes {
                 System.out.println(resultado);
             }   
     } while (x != 0 && y != 0);
+    
     }    
 }
