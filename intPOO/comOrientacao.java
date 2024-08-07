@@ -30,5 +30,6 @@ public class comOrientacao {
 
         System.out.printf("A area do triangulo x é: %.4f%n", x.area);
         System.out.printf("A area do triangulo y é: %.4f%n", y.area);
+        sc.close();
     }
 }

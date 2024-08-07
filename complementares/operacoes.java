@@ -16,6 +16,7 @@ public class operacoes {
             op = sc.nextInt();
             x = sc.nextInt();
             y = sc.nextInt();
+            sc.close();
 
             if (op == 1){   
                 resultado = x + y;
@@ -31,6 +32,5 @@ public class operacoes {
                 System.out.println(resultado);
             }   
     } while (x != 0 && y != 0);
-    
     }    
 }

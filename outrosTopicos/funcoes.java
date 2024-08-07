@@ -11,6 +11,7 @@ public class funcoes {
         resultado = Math.sqrt(x);
 
         System.err.println(resultado);
+        sc.close();
     }
     
 }

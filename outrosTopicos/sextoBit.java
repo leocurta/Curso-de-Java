@@ -13,5 +13,6 @@ public class sextoBit {
         } else {
             System.out.println("6º bit e falso");
         }
+        sc.close();
     }
 }
