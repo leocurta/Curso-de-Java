@@ -13,7 +13,7 @@ public class senha {
                 System.out.println("Digite a senha: ");
                 senha = sc.nextInt();
                 if (senha == 123456){
-                    System.out.println("Acesso validado!");
+                    System.out.println("Acesso validado!!");
                 } else {
                     System.out.println("Usuario e senha nao conferem");
                 }

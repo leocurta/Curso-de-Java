@@ -7,7 +7,7 @@ import java.util.Locale;
 public class comOrientacao {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        double p, areaX, areaY;
+        double areaX, areaY;
         Scanner sc = new Scanner(System.in);
 
         Triangulo x, y;

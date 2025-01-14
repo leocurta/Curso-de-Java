@@ -14,7 +14,7 @@ public class exercicioFor7 {
             System.out.printf("%d ", i);
             System.out.printf("%d ", quad);
             System.out.println(cub);
+            sc.close();
         }
-        sc.close();
     }
 }
